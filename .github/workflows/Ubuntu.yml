@@ -64,6 +64,9 @@ jobs:
            sudo dpkg --install chrome-remote-desktop_current_amd64.deb
            sudo apt install --assume-yes --fix-broken
            sudo adduser Area69Lab chrome-remote-desktop
+           sudo apt install android-sdk-libsparse-utils
+           cd 
+           git clone https://github.com/xpirt/img2sdat
     - name: generate script
       run: |
            touch setup.sh
