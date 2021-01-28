@@ -67,11 +67,7 @@ jobs:
            sudo apt install android-sdk-libsparse-utils
            cd 
            git clone https://github.com/xpirt/img2sdat
-           wget https://del.dog/SuperR-zip
-           mv SuperR-zip SuperR.zip
-           mkdir SuperR
-           unzip SuperR.zip -d SuperR/
-           rm SuperR.zip
+
     - name: generate script
       run: |
            touch setup.sh
