@@ -67,6 +67,10 @@ jobs:
            sudo apt install android-sdk-libsparse-utils
            cd 
            git clone https://github.com/xpirt/img2sdat
+           git clone https://github.com/kumaryadav-prog1/ErfanGSIs
+           cd ErfanGSIs/
+           bash setup.sh
+           cd ..
 
     - name: generate script
       run: |
